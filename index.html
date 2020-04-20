@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- Priorities
+- Make navbar fixed as you scroll (but only the logo, search bar, apps, profile pic)
+- Second header includes: all, news, images, videos, shopping, more; a bit further away: settings, tools
+- Do I try to have the underline function with the colored "All"
+- Do I have the icons for each?
+- Make ONE entry, and use it as a template for the rest
+- have the "Gooooooooogle" bit with numbers
+- Navbar needs to get smaller when you scroll past a certain point
+
+- 
+-->
+
+<head>
+    <link href="styles.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+
+    <!--Search and profile bar-->
+    <nav class="navbar">
+        <img class="logo" src="googlelogo_color.png" alt="Google Logo">
+        <div class="form">
+            <form method="get">
+                <input class="searchbar" type="search" name="search"/>
+            </form>
+            </div>
+        <ul class="nav-links">
+            <li class="nav-item" ><a href="#"><img id="squares" src="apps-icon.png"></a></li>
+            <li class="nav-item" ><a href="#"><img id="profile_pic" src="https://lh3.googleusercontent.com/-3PZ1OYjMY8A/AAAAAAAAAAI/AAAAAAAAAAA/AAKWJJOgZjh2aMIeORl-UtVAiRK_3U361w.CMID/s32-c/photo.jpg" alt-text="profile pic"></a></li>
+        </ul>
+    </nav>
+</header>
+<header class="bottom-border">
+    <!--Types of searches bar-->
+    <nav class="navbar2">
+        <ul>
+            <li>All</li>
+            <li>News</li>
+            <li>Images</li>
+            <li>Videos</li>
+            <li>Shopping</li>
+            <li>More</li>
+        </ul>
+        <ul>
+            <li class="nav-item"><a href="#"></a>Settings</li>
+            <li class="nav-item"><a href="#"></a>Tools</li>
+        </ul>
+    </nav>
+</header>
+
+<!--Results-->
+<div id="main">
+<div id="x-results">
+<p id="results-number">About 352.000.000 results (0,43 seconds)</p>
+</div>
+
+<!--Template Entry-->
+<div class="search-result">
+    <p>en.wikipedia.org > wiki > Interactive_fiction</p> <!--dropdown for Cached/Similar-->
+    <a href=""><h2>Interactive fiction - Wikipedia</h2></a>
+    <p>Interactive fiction, often abbreviated IF, is software simulating environments in which players use text commands to control characters and influence the environment. Works in this form can be understood as literary narratives, either in the form of interactive narratives or interactive narrations.</p>
+    <a href="#">Medium</a> ‎&#183; <a href="#">History</a> &#183; <a href="#">Notable works</a> &#183; <a href="#">Software</a>
+</div>
+
+<!--People also search for box-->
+<div class="peo-al-se-for">
+<p><strong>People also search for</strong></p>
+<div class="peo-als-se-for-container1">
+<a class="peo-als-se-for-items"href="#">zork i</a><br>
+<a class="peo-als-se-for-items"href="#">text adventure games</a><br>
+<a class="peo-als-se-for-items"href="#">colossal cave adventure</a><br>
+</div>
+<div class="peo-als-se-for-container2">
+<a class="peo-als-se-for-items"href="#">rpg choose your own adventure</a><br>
+<a class="peo-als-se-for-items"href="#">colossal cave adventure plugh</a><br>
+<a class="peo-als-se-for-items"href="#">adventure book games</a>
+</div>
+</div>
+
+<!--People also ask box template-->
+<div class="peo-als-ask">
+    <h2>People also ask</h2>
+    <p>What is interactive fiction games?</p>
+    <p>How do you play interactive fiction?</p>
+    <p>How do you make an interactive story?</p>
+    <p>What is the best interactive story app?</p>
+</div>
+<p id="feedback"><i>Feedback</i></p>
+
+<!--Related search template-->
+<div class="related-search">
+<p>Related search</p>
+<h2>Best free text adventure games</h2>
+<a href="#"><img id="related-search-image" src="https://i.ibb.co/FJcdtpw/zork.png"><br>Zork</a>
+<a href="#"><img id="related-search-image" src="https://i.ibb.co/DwMKq0d/hitchhikers.jpg"><br>The Hitchhiker's Guide to...</a>
+<a href="#"><img id="related-search-image" src="https://i.ibb.co/wBRt3dd/dreamhold.jpg"><br>The Dreamhold</a>
+<a href="#"><img id="related-search-image" src="https://i.ibb.co/dD1N7Lk/spiderweb.jpg"><br>Spider and Web</a>
+<a href="#"><img id="related-search-image" src="https://i.ibb.co/7ynwrks/planetfell.jpg"><br>Planetfall</a>
+<a href="#"><img id="related-search-image" src="https://i.ibb.co/cwsshK8/mindvoyager.jpg"><br>A Mind Forever Voyaging</a>
+</div>
+<p id="feedback"><i>Feedback</i></p>
+
+<!--Searches related to ____ template-->
+<div class="searches-related-to">
+    <h2>Searches related to interactive fiction</h2>
+    <div class="peo-als-se-for-container1">
+    <a class="peo-als-se-for-items"href="#">interactive fiction <b>text adventure games</b></a><br>
+    <a class="peo-als-se-for-items"href="#">interactive fiction <b>stories</b></a><br>
+    <a class="peo-als-se-for-items"href="#"><b>best</b> interactive fiction <b>2019</b></a><br>
+    <a class="peo-als-se-for-items"href="#">interactive fiction <b>games romance</b></a>
+    </div>
+    <div class="peo-als-se-for-container2">
+    <a class="peo-als-se-for-items"href="#"><b>best</b> interactive fiction <b>games</b></a><br>
+    <a class="peo-als-se-for-items"href="#">interactive fiction <b>creator</b></a><br>
+    <a class="peo-als-se-for-items"href="#">interactive fiction <b>reddit</b></a><br>
+    <a class="peo-als-se-for-items"href="#">interactive fiction <b>games android</b></a>    
+</div>
+</div>
+</div>
+
+<!--Gooooooogle-->
+<div>
+
+</div>
+
+<!--Footer bars-->
+<div id="footer-bar">
+<footer>
+    <ul class="nav-links">
+        <li class="nav-item"><a>Germany</a></li>
+        <!--vertical rule-->
+        <li><!--DOT--> <strong>00000, XXXXXX</strong> - From your places (Home) - Use your precise location - Learn more </li>
+    </ul>
+    </footer>
+    <footer id="footer-bar2">
+        <ul class="nav-links">
+            <li class="nav-item"><a href="#">Help</a></li>
+            <li class="nav-item"><a href="#">Send feedback</a></li>
+            <li class="nav-item"><a href="#">Privacy</a></li>
+            <li class="nav-item"><a href="#">Terms</a></li>
+        </ul>
+    </footer>
+</div>
+</body>
